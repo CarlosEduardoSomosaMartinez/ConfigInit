@@ -3,7 +3,7 @@ import indexRoute from '@routes/index.route';
 const app = express();
 
 app.get('/', (req, res, next) => {
-  res.json({ message: 'hola mundo' });
+  res.json({ message: "DDD" });
 });
 app.use('/', indexRoute);
 
